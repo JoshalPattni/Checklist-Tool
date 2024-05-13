@@ -53,3 +53,8 @@ button:hover {
     margin-top: 20px;
     text-align: center;
 }
+
+.important {
+    color: red;
+    font-weight: bold;
+}
