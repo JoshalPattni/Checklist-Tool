@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checklist Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Checklist Tool</h1>
+        <div id="checklist">
+            <h2>Investment Property Evaluation Checklist</h2>
+            <ul id="checklist-items">
+                <li><input type="checkbox" id="location"> <label for="location">Evaluate location</label></li>
+                <li><input type="checkbox" id="property-type"> <label for="property-type">Assess property type</label></li>
+                <li><input type="checkbox" id="condition"> <label for="condition">Inspect property condition</label></li>
+                <li><input type="checkbox" id="market-trends"> <label for="market-trends">Analyze market trends</label></li>
+                <li><input type="checkbox" id="financial-analysis"> <label for="financial-analysis">Conduct financial analysis</label></li>
+            </ul>
+            <button onclick="completeChecklist()">Complete Checklist</button>
+        </div>
+        <div id="completion-message" style="display: none;">
+            <p>Congratulations! You have completed your investment property evaluation checklist.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
