@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class RealEstateInvestorChecklist {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        boolean[] checklist = new boolean[11]; // 11 items in the checklist
+        boolean[] checklist = new boolean[22]; // 22 items in the checklist
         boolean allCompleted = false;
 
         System.out.println("Real Estate Investor Checklist");
@@ -50,18 +50,49 @@ public class RealEstateInvestorChecklist {
     }
 
     public static void displayChecklist(boolean[] checklist) {
-        System.out.println("Investment Property Evaluation Checklist:");
-        System.out.println("1. Purpose of the Book - Setting the stage for your investment journey.");
-        System.out.println("2. Defining Your Investment Criteria - Identifying what to look for in properties.");
-        System.out.println("3. Buying Process - Detailed steps from searching to purchasing.");
-        System.out.println("4. Building Your Deals Funnel - Techniques for managing multiple investment opportunities.");
-        System.out.println("5. Deal Analysis - Essential metrics for assessing property deals.");
-        System.out.println("6. Advanced Deal Analysis - Deeper insights into financial analysis and market trends.");
-        System.out.println("7. Negotiating Deals - Effective strategies to secure the best terms.");
-        System.out.println("8. Legal Considerations - Understanding contracts and property law.");
-        System.out.println("9. Project Management - Managing renovations and property improvements.");
-        System.out.println("10. Systems - Implementing tools to streamline your investments.");
-        System.out.println("11. Scaling - Growing your investment portfolio effectively.");
+        System.out.println("Real Estate Investor Checklist:");
+
+        System.out.println("\nFinances (Important):");
+        System.out.println("1. Calculate budget");
+        System.out.println("2. Review financing options");
+        System.out.println("3. Set up financing");
+
+        System.out.println("\nProperty Purchasing Transaction (Important):");
+        System.out.println("4. Search for properties");
+        System.out.println("5. Conduct property inspections");
+        System.out.println("6. Make an offer");
+        System.out.println("7. Finalize financing");
+        System.out.println("8. Complete legal paperwork");
+
+        System.out.println("\nRenovation (Important):");
+        System.out.println("9. Plan renovation budget");
+        System.out.println("10. Hire contractors");
+        System.out.println("11. Monitor renovation progress");
+
+        System.out.println("\nRefinancing (Important):");
+        System.out.println("12. Evaluate refinance options");
+        System.out.println("13. Apply for refinance");
+
+        System.out.println("\nListing (Important):");
+        System.out.println("14. Prepare property for listing");
+        System.out.println("15. List property");
+
+        System.out.println("\nOther Checklist Items:");
+
+        System.out.println("\nBook:");
+        System.out.println("16. Read Chapter 1: Purpose of the Book");
+        System.out.println("17. Read Chapter 2: Defining Your Investment Criteria");
+
+        System.out.println("\nProperty Management:");
+        System.out.println("18. Set up property management");
+        System.out.println("19. Screen tenants");
+
+        System.out.println("\nLegal Considerations:");
+        System.out.println("20. Review contracts");
+        System.out.println("21. Consult with legal advisor");
+
+        System.out.println("\nEducation (Important):");
+        System.out.println("22. Continue real estate education");
 
         System.out.println("\nCompleted Checklist Items:");
         for (int i = 0; i < checklist.length; i++) {
