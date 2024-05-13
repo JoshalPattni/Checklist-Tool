@@ -3,25 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checklist Tool</title>
+    <title>Real Estate Investor Checklist</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Checklist Tool</h1>
+        <h1>Real Estate Investor Checklist</h1>
         <div id="checklist">
             <h2>Investment Property Evaluation Checklist</h2>
             <ul id="checklist-items">
-                <li><input type="checkbox" id="location"> <label for="location">Evaluate location</label></li>
-                <li><input type="checkbox" id="property-type"> <label for="property-type">Assess property type</label></li>
-                <li><input type="checkbox" id="condition"> <label for="condition">Inspect property condition</label></li>
-                <li><input type="checkbox" id="market-trends"> <label for="market-trends">Analyze market trends</label></li>
-                <li><input type="checkbox" id="financial-analysis"> <label for="financial-analysis">Conduct financial analysis</label></li>
+                <li><input type="checkbox" id="location"> <label for="location">Evaluate location: demographics, crime rate, schools, amenities, transportation</label></li>
+                <li><input type="checkbox" id="property-type"> <label for="property-type">Assess property type: residential, commercial, mixed-use</label></li>
+                <li><input type="checkbox" id="condition"> <label for="condition">Inspect property condition: structural integrity, age, repairs needed</label></li>
+                <li><input type="checkbox" id="market-trends"> <label for="market-trends">Analyze market trends: appreciation rates, rental demand, vacancy rates</label></li>
+                <li><input type="checkbox" id="financial-analysis"> <label for="financial-analysis">Conduct financial analysis: purchase price, renovation costs, rental income, expenses, ROI, Cap Rate</label></li>
+                <li><input type="checkbox" id="legal-considerations"> <label for="legal-considerations">Review legal considerations: zoning laws, building codes, permits, contracts, regulations</label></li>
+                <li><input type="checkbox" id="financing-options"> <label for="financing-options">Explore financing options: cash, mortgage, hard money loan, private lender</label></li>
+                <li><input type="checkbox" id="insurance"> <label for="insurance">Obtain insurance: property insurance, liability insurance</label></li>
+                <li><input type="checkbox" id="property-management"> <label for="property-management">Plan property management: self-management, hiring a property manager</label></li>
+                <li><input type="checkbox" id="exit-strategy"> <label for="exit-strategy">Define exit strategy: long-term rental, fix and flip, wholesaling</label></li>
+                <li><input type="checkbox" id="networking"> <label for="networking">Build a network: real estate agents, contractors, attorneys, mentors, other investors</label></li>
+                <li><input type="checkbox" id="education"> <label for="education">Continued education: real estate seminars, courses, books, podcasts</label></li>
+                <li><input type="checkbox" id="risk-assessment"> <label for="risk-assessment">Assess risk: financial risk, market risk, operational risk</label></li>
             </ul>
             <button onclick="completeChecklist()">Complete Checklist</button>
         </div>
         <div id="completion-message" style="display: none;">
-            <p>Congratulations! You have completed your investment property evaluation checklist.</p>
+            <p>Congratulations! You have completed your real estate investor checklist.</p>
         </div>
     </div>
     <script src="script.js"></script>
